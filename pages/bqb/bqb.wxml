@@ -1,0 +1,8 @@
+<!--pages/bqb/bqb.wxml-->
+<text>pages/bqb/bqb.wxml</text>
+
+<view class="container">
+  <view class="img-wrapper">
+    <image wx:for="{{bqbCateList}}" wx:key="{{}}" src=""></image>
+  </view>
+</view>
